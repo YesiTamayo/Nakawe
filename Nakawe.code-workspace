@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\galeria"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"https://github.com/YesiTamayo/Nakawe.git": true
+		}
+	}
+}
