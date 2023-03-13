@@ -1,0 +1,69 @@
+ubicación actual
+Administrador@AM-39 MINGW64 /
+$ pwd
+/
+
+Administrador@AM-39 MINGW64 /
+$
+
+crear carpeta
+Administrador@AM-39 MINGW64 ~ (master)
+$ mkdir ejercicios
+
+cambiar ubicación
+Administrador@AM-39 MINGW64 ~ (master)
+$ mv ejercicios carpeta/
+
+Configurar nombre e email globalmente en git.
+Administrador@AM-39 MINGW64 ~ (master)
+$ git config --global user.name YesiTamayo
+
+Administrador@AM-39 MINGW64 ~ (master)
+$ git config --global user.email yesica.tamayo@misena.edu.co
+
+Administrador@AM-39 MINGW64 ~ (master)
+$ git config -l
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+init.defaultbranch=master
+user.name=YesiTamayo
+user.email=yesica.tamayo@misena.edu.co
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+Inicializar el repositorio de git
+Administrador@AM-39 MINGW64 ~/carpeta/ejercicios (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Administrador.000/carpeta/ejercicios/.git/
+
+Administrador@AM-39 MINGW64 ~/carpeta/ejercicios (master)
+$ git add .
+
+Crear un primer commit
+Administrador@AM-39 MINGW64 ~/carpeta/ejercicios (master)
+$ git commit -m "Versión inicial"
+[master (root-commit) 4f36122] Versión inicial
+1 file changed, 0 insertions(+), 0 deletions(-)
+create mode 100644 ejercicio1/README.md
+
+Administrador@AM-39 MINGW64 ~/carpeta/ejercicios (master)
+$ git add .
+
+Administrador@AM-39 MINGW64 ~/carpeta/ejercicios (master)
+$ git commit -m "Agrega solución primer ejercicio"
+[master (root-commit) 4f36122] Versión inicial
+1 file changed, 0 insertions(+), 0 deletions(-)
+create mode 100644 ejercicio1/README.md
