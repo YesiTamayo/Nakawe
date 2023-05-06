@@ -61,7 +61,6 @@ create mode 100644 ejercicio1/README.md
 
 Administrador@AM-39 MINGW64 ~/carpeta/ejercicios (master)
 $ git add .
-
 Administrador@AM-39 MINGW64 ~/carpeta/ejercicios (master)
 $ git commit -m "Agrega solución primer ejercicio"
 [master (root-commit) 4f36122] Versión inicial
